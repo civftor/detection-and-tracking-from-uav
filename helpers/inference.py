@@ -43,7 +43,7 @@ def infer(pack, model_dir, images):
   boxes = []
 
   for image in images:
-    image = cv2.imread(path)
+    image = cv2.imread(image)
     image_expanded = np.expand_dims(image, axis=0)
     detections = sess.run(
         [detection_boxes, detection_scores, detection_classes, num_detections],
