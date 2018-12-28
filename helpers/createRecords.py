@@ -8,7 +8,7 @@ import random
 from glob import glob
 
 currentDir = os.path.dirname(os.path.realpath(__file__))
-sys.path.append( os.path.join(currentDir, "tensorflow") )
+sys.path.append( os.path.join(currentDir, "..", "tensorflow") )
 
 from object_detection.dataset_tools import tf_record_creation_util
 from object_detection.utils import dataset_util
