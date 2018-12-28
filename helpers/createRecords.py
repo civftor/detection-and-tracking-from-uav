@@ -23,11 +23,16 @@ from PIL import Image
 # 
 
 
+
 #### Paths to the aerial dataset and the output ####
 input_folder = "/Volumes/Disque-Dur-S-C/aerial_dataset/";
 output_path = "/Volumes/Disque-Dur-S-C/aerial_tf_records_jpg/train.record";
 num_shards = 8
 MAX_SIZE = 1024
+
+
+
+
 
 
 def resize_image(im):
