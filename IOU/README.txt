@@ -1,0 +1,1 @@
+./mot16.py -m seqmaps/rfcn-all.txt -o res -b /Volumes/Disque-Dur-S-C/_matlab/2DMOT2015/test -sl 0 -sh 0.8 -si 0.3 -tm 3
