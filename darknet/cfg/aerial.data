@@ -1,0 +1,5 @@
+classes = 3
+train  = cfg/aerial-train.txt
+valid  = cfg/aerial-valid.txt
+names = cfg/aerial.names
+backup = backup_anchors

@@ -1,0 +1,4 @@
+classes = 12
+train  = cfg/aerial-train-subset.txt
+names = cfg/aerial.names
+backup = ../backup/
